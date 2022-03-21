@@ -1,46 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>masai-investors</title>
-    <style>
-        *{
-            font-family: sans-serif;
-        }
-        h5{
-            color: grey;
-        }
-        #container{
-        margin:auto;
-       width:80%;
-       display:grid;
-       grid-template-columns:repeat(4,1fr);
-       gap:20px;
-       margin-top: 100px;
-        }
-        .investor{
-            border-radius: 10px;
-            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-            text-align: center;
-            
-        }
-        #img{
-            width: 100%;
-            border-radius: 10px 10px 0px 0px;
-        }
-        #logo{
-            height: 40px;
-            width:100px;
-        }
-    </style>
-</head>
-<body>
-    
-
-    <script>
-        var title=document.createElement('h1');
+var title=document.createElement('h1');
         title.innerHTML='Strategic Investors';
         title.style.textAlign='center';
         title.style.fontSize='40px';
@@ -75,8 +33,3 @@
 
         });
 
-
-    </script>
-    
-</body>
-</html>
